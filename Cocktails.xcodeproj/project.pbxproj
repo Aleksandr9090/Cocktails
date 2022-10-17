@@ -15,6 +15,8 @@
 		1F72F80028FC651F00CECF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F72F7FE28FC651F00CECF09 /* LaunchScreen.storyboard */; };
 		1F72F80828FC65BF00CECF09 /* CocktailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72F80728FC65BF00CECF09 /* CocktailsViewController.swift */; };
 		1F72F80A28FC71BC00CECF09 /* CocktailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72F80928FC71BC00CECF09 /* CocktailCollectionViewCell.swift */; };
+		1F72F80C28FC763500CECF09 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72F80B28FC763500CECF09 /* Cocktail.swift */; };
+		1F72F80E28FC795700CECF09 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F72F80D28FC795700CECF09 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		1F72F80128FC651F00CECF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F72F80728FC65BF00CECF09 /* CocktailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailsViewController.swift; sourceTree = "<group>"; };
 		1F72F80928FC71BC00CECF09 /* CocktailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F72F80B28FC763500CECF09 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		1F72F80D28FC795700CECF09 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				1F72F7FE28FC651F00CECF09 /* LaunchScreen.storyboard */,
 				1F72F80128FC651F00CECF09 /* Info.plist */,
 				1F72F80928FC71BC00CECF09 /* CocktailCollectionViewCell.swift */,
+				1F72F80B28FC763500CECF09 /* Cocktail.swift */,
+				1F72F80D28FC795700CECF09 /* NetworkManager.swift */,
 			);
 			path = Cocktails;
 			sourceTree = "<group>";
@@ -147,8 +153,10 @@
 				1F72F80828FC65BF00CECF09 /* CocktailsViewController.swift in Sources */,
 				1F72F80A28FC71BC00CECF09 /* CocktailCollectionViewCell.swift in Sources */,
 				1F72F7F828FC651D00CECF09 /* DetailViewController.swift in Sources */,
+				1F72F80E28FC795700CECF09 /* NetworkManager.swift in Sources */,
 				1F72F7F428FC651D00CECF09 /* AppDelegate.swift in Sources */,
 				1F72F7F628FC651D00CECF09 /* SceneDelegate.swift in Sources */,
+				1F72F80C28FC763500CECF09 /* Cocktail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
